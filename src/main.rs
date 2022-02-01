@@ -1,4 +1,16 @@
+/// This is a Doc comment outside the function
+/// Generate docs for the following item.
+/// This shows my code outside a module or a function
 fn main() {
+    printing();
+        
+}
+
+fn printing(){
+    //! This a doc comment that is inside the function   
+    //! This comment shows my code inside a module or a function  
+    //! Generate docs for the enclosing item
+
     println!("Hello, world!"); // Macro
     println!("Number: {}", 25); // Single Placeholder
     println!("My name is {} I am {} years old.", "Harry", 20); // Multiple Placeholders
@@ -29,4 +41,9 @@ fn main() {
     eprintln!("Hello, "); 
     eprintln!("World!");
 
+    // Single line comment.
+
+    /*
+    This is a block comment.
+    */
 }
