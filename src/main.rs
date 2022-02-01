@@ -15,4 +15,18 @@ fn main() {
     println!("{0} + {0} = {1}",10, 10 + 10); // Basic math.
 
     println!("This is a multiple value placeholder {:?}", ("Hello there", 92, "Bye")); // Placeholder for a Debug Trait
+    // ----------------------------------------------------------------
+    // print! = Prints anything inside the parentheses to console.
+    print!("Hello, ");
+    print!("World!\n");// \n ADDS a new line. 
+    // println! = Prints anything inside the parentheses to console, but adds a new line after.
+    println!("Hello, "); 
+    println!("World!");
+    // eprint! = Prints anything inside the parentheses to console as an error msg.
+    eprint!("Hello, ");
+    eprint!("World!\n");// \n ADDS a new line. 
+    // eprintln! = Prints anything inside the parentheses to console as an error msg, but adds a new line after.
+    eprintln!("Hello, "); 
+    eprintln!("World!");
+
 }
